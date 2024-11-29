@@ -18,7 +18,7 @@ classDiagram
         -String Mesa
 
         +abrirRestaurante()
-        +cerrarRestaruante()
+        +cerrarRestaurante()
     }
     class Orden {
         -Int NumeroOrden
