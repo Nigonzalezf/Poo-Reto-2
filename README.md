@@ -16,6 +16,9 @@ classDiagram
         -String Cliente
         -String Menu
         -String Mesa
+
+        +abrirRestaurante()
+        +cerrarRestaruante()
     }
     class Orden {
         -Int NumeroOrden
