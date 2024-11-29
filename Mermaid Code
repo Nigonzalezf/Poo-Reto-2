@@ -1,4 +1,3 @@
-```mermaid
 classDiagram
     Empleado "1" --> "n" Orden: Recibe
     Cliente "1" --> "n" Orden: Pide
@@ -58,4 +57,3 @@ classDiagram
         +asignarMesa(cliente: Cliente)
         +liberarMesa() 
     }
-```
